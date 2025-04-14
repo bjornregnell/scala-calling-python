@@ -22,4 +22,4 @@ scala run . -- wiki Debugging
 
 ```
 
-If you get this error `ModuleNotFoundError: No module named 'wikipedia'` you have forgotten to start your venv with `source .venv/bin/activate` and/or then `python3 -m pip install wikipedia`.
+If you get this error `ModuleNotFoundError: No module named 'wikipedia'` you have forgotten to start your venv with `source .venv/bin/activate` and/or once here `python3 -m pip install wikipedia`.

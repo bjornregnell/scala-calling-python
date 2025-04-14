@@ -12,7 +12,7 @@ A simple way to interact with python3 from Scala in a linux environment.
 ```
   sudo apt install python3-venv      # only needed once for your system
   python3 -m venv .venv              # only needed once in each project dir
-  source .venv/bin/activate          # later when done use: deactivate
+  source .venv/bin/activate          # later when done run this command: deactivate
   python3 -m pip install wikipedia   # only needed once for this .venv
 ```
 

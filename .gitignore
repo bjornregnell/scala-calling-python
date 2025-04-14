@@ -1,0 +1,19 @@
+**/.metals
+**/.vscode
+**/.bsp
+**/.bloop
+**/.scala-build
+**/target
+**/metals.sbt
+project/project
+**/tmp
+
+*.class
+*.log
+**/*.jar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#python stuff
+.venv

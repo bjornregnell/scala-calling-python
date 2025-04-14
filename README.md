@@ -1,6 +1,6 @@
 # scala-calling-python
 
-A simple way to interact with python3 from Scala in a linux environment.
+A simple way to interact with python3 from Scala:
 
 * Install [Scala](https://scala-lang.org/download/)
 

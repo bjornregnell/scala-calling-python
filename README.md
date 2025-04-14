@@ -4,7 +4,7 @@ A simple way to interact with python3 from Scala in a linux environment.
 
 * Install [Scala](https://scala-lang.org/download/)
 
-* Download or clone this repo or just [download this scala file]()
+* Download or clone this repo or just [download this scala file](https://github.com/bjornregnell/scala-calling-python/blob/main/scala-calling-python.scala)
 
 * Run with `scala run .` and don't forget the trailing dot.
 

@@ -15,8 +15,8 @@ def runPython(program: String): String =
           |print("Printing Scala String using python program: $greeting ")
           |
           |""".stripMargin.trim
+
     println(out)
-  
   else 
     println(s"args=$args")
     if args.startsWith(Seq("wiki")) then 

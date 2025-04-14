@@ -4,8 +4,8 @@
 val greeting = "Hello World!"
 
 def runPython(program: String): String = 
-  os.spawn(cmd = ("python3", "-c", program), stderr = os.Inherit).stdout.trim()
-  //os.spawn(cmd = "python3", stdin = echo(program).stdout, stderr = os.Inherit).stdout.trim()
+  os.spawn(cmd = ("python3", "-c", program), stderr = os.Inherit, stdin = os.Inherit)
+    .stdout.trim()
 
 @main def Run(args: String*) = 
   if args.isEmpty then

@@ -21,6 +21,7 @@ A simple way to interact with python3 from Scala:
 * Now you can run this scala program that runs a python program string in this dir that contains the activated venv:
 ```
 scala run . -- wiki Debugging
+scala run . -- numpy 1 2 3
 
 ```
 

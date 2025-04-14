@@ -14,6 +14,8 @@ A simple way to interact with python3 from Scala:
   python3 -m venv .venv              # only needed once in each project dir
   source .venv/bin/activate          # later when done run this command: deactivate
   python3 -m pip install wikipedia   # only needed once for this .venv
+  python3 -m pip install numpy       # only needed once for this .venv
+
 ```
 
 * Now you can run this scala program that runs a python program string in this dir that contains the activated venv:
